@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="NOVA Collective university student portfolio project">
+    <title>Home | NOVA Collective</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header>
+        <nav class="container" aria-label="Main navigation">
+
+            <a class="logo" href="index.html">
+                NOVA<span>.</span> collective
+            </a>
+
+            <button class="menu-toggle" type="button"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+            </button>
+
+            <div class="navlinks">
+                <a href="index.html">Home</a>
+                <a href="index.html#team">Team</a>
+                <a href="index.html#work">Work</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- Home -->
+
+        <section class="hero container">
+
+            <div class="eyebrow">
+                Student design &amp; development collective
+            </div>
+
+            <h1>Five minds.<br>One digital experience.</h1>
+
+            <p>
+                We combine thoughtful design, clean development,
+                and creative problem-solving to build websites
+                that feel good to use.
+            </p>
+
+            <a class="button" href="#team">Meet the team</a>
+
+            <a class="button secondary" href="#work">
+                Explore our work
+            </a>
+
+        </section>
+
+        <!-- Team -->
+
+        <section id="team">
+
+            <div class="container">
+
+                <div class="eyebrow">Our people</div>
+
+                <h2 class="section-title">Meet the collective</h2>
+
+                <p class="muted">
+                    Each member has an individual portfolio
+                    with consistent navigation and branding.
+                </p>
+
+                <div class="grid">
+
+                    <!-- Member 1 -->
+
+                    <article class="card">
+
+                        <div class="avatar" aria-hidden="true">MA</div>
+
+                        <h3>Mohamed Alshamsi</h3>
+
+                        <p>Web Developer</p>
+
+                        <p>Explore projects, skills, and contact details.</p>
+
+                        <a href="member1.html">View portfolio →</a>
+
+                    </article>
+
+                    <!-- Member 2 -->
+
+                    <article class="card">
+
+                        <div class="avatar" aria-hidden="true">02</div>
+
+                        <h3>Hasan Al Ali</h3>
+
+                        <p>Report</p>
+
+                        <p>Explore projects, skills, and contact details.</p>
+
+                        <a href="member2.html">View portfolio →</a>
+
+                    </article>
+
+                    <!-- Member 3 -->
+
+                    <article class="card">
+
+                        <div class="avatar" aria-hidden="true">03</div>
+
+                        <h3>Abdulla Adnan</h3>
+
+                        <p>3D Design</p>
+
+                        <p>Explore projects, skills, and contact details.</p>
+
+                        <a href="member3.html">View portfolio →</a>
+
+                    </article>
+
+                    <!-- Member 4 -->
+
+                    <article class="card">
+
+                        <div class="avatar" aria-hidden="true">04</div>
+
+                        <h3>Ahmed Omar</h3>
+
+                        <p>Content &amp; QA Specialist</p>
+
+                        <p>Explore projects, skills, and contact details.</p>
+
+                        <a href="member4.html">View portfolio →</a>
+
+                    </article>
+
+                    <!-- Member 5 -->
+
+                    <article class="card">
+
+                        <div class="avatar" aria-hidden="true">05</div>
+
+                        <h3>Mohamed Hareb</h3>
+
+                        <p>Multimedia Designer</p>
+
+                        <p>Explore projects, skills, and contact details.</p>
+
+                        <a href="member5.html">View portfolio →</a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Featured Project -->
+
+        <section id="work">
+
+            <div class="container">
+
+                <div class="split">
+
+                    <div>
+
+                        <div class="eyebrow">Featured project</div>
+
+                        <h2 class="section-title">
+                            Designed together. Built to connect.
+                        </h2>
+
+                        <p class="muted">
+                            Our shared portfolio brings five unique
+                            skill sets into one responsive website.
+                            Explore each member's work, navigate
+                            seamlessly between pages, and contact
+                            the team.
+                        </p>
+
+                        <a class="button" href="#contact">
+                            Get in touch
+                        </a>
+
+                    </div>
+
+                    <div class="feature">
+
+                        <strong>05</strong>
+
+                        <h3>Connected portfolios</h3>
+
+                        <p>
+                            One visual system, responsive pages,
+                            clear navigation, and accessible interactions.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+
+        <section id="contact">
+
+            <div class="container">
+
+                <div class="eyebrow">Contact</div>
+
+                <h2 class="section-title">Start a conversation</h2>
+
+                <p class="muted">
+                    Have a question or a project in mind?
+                    Fill out the form below to get in touch with our team.
+                </p>
+
+                <form class="form" id="contactForm">
+
+                    <label for="name">Name</label>
+
+                    <input
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                        placeholder="Enter your name"
+                        required>
+
+                    <label for="email">Email</label>
+
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        autocomplete="email"
+                        placeholder="Enter your email address"
+                        required>
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write your message here"
+                        required></textarea>
+
+                    <button class="button" type="submit">
+                        Compose email
+                    </button>
+
+                    <p class="status"
+                       id="contactStatus"
+                       role="status"
+                       aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="container">
+            © 2026 NOVA Collective · University group web project
+            · Built with HTML, CSS &amp; JavaScript
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Contact Form JavaScript -->
+
+    <script>
+
+        document.getElementById("contactForm")
+            .addEventListener("submit", function(event) {
+
+                event.preventDefault();
+
+                const name = document.getElementById("name").value;
+
+                const email = document.getElementById("email").value;
+
+                const message = document.getElementById("message").value;
+
+                const recipient = "milkkyy3434@gmail.com";
+
+                const subject = "NOVA Collective - Message from " + name;
+
+                const body =
+                    "Name: " + name + "\n" +
+                    "Email: " + email + "\n\n" +
+                    "Message:\n" + message;
+
+                window.location.href =
+                    "mailto:" + recipient +
+                    "?subject=" + encodeURIComponent(subject) +
+                    "&body=" + encodeURIComponent(body);
+
+                document.getElementById("contactStatus").textContent =
+                    "Complete and send your message using your email application.";
+
+            });
+
+    </script>
+
+</body>
+
+</html>
